@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Header Example</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div
+      class="relative flex w-screen h-screen lg:justify-start md:justify-center justify-center items-center overflow-hidden bg-[#eff1fe] z-0"
+    >
+      <form
+        class="flex flex-col z-20 lg:w-[600px] w-full items-center justify-center bg-[#d1d8fc]/30 backdrop-blur-2xl lg:px-0 md:px-0 py-28 px-4 mx-2 rounded-lg"
+      >
+        <div class="w-full flex flex-col justify-center items-center">
+          <h2 class="text-2xl font-bold mb-2 pt-4">Register</h2>
+          <p class="text-[17px] text-gray-400 mb-10">
+            What are we learning today?
+          </p>
+          <!------------labels-------------------------------->
+          <div class="w-full md:w-auto mx-auto">
+            <div class="mb-2">
+              <label
+                class="block text-gray-700 text-sm font-medium mb-2"
+                for="username"
+              >
+                Username
+              </label>
+              <input
+                id="username"
+                type="username"
+                class="border-2 border-gray-300 rounded-lg lg:w-[19rem] md:w-[18rem] w-full py-2 px-2 text-gray-700 focus:outline-none"
+              />
+            </div>
+            <div class="mb-2">
+              <label
+                class="block text-gray-700 text-sm font-medium mb-2"
+                for="username"
+                >Email</label
+              >
+              <input
+                id="email"
+                type="email"
+                class="border-2 border-gray-300 rounded-lg lg:w-[19rem] md:w-[18rem] w-full py-2 px-2 text-gray-700 focus:outline-none"
+              />
+            </div>
+            <div class="mb-11">
+              <label
+                class="block text-gray-700 text-sm font-medium mb-2"
+                for="username"
+                >Password</label
+              >
+              <input
+                id="password"
+                type="password"
+                class="border-2 border-gray-300 rounded-lg lg:w-[19rem] md:w-[18rem] w-full py-2 px-2 text-gray-700 focus:outline-none"
+              />
+            </div>
+            <!---------------button---------------------------------->
+            <div class="mt-4">
+              <button
+                class="btn btn-primary py-1 text-white text-lg lg:w-[19rem] md:w-[18rem] w-full"
+              >
+                Register
+              </button>
+            </div>
+            <div class="mt-4">
+              <button class="btn lg:w-[19rem] md:w-[18rem] text-lg w-full py-2">
+                Login with Google
+              </button>
+            </div>
+          </div>
+        </div>
+      </form>
+      <!-----------end form ------------------------------------->
+      <!-----------bg-images------------------------------------->
+      <div
+        class="absolute w-[800px] h-[650px] z-10 block lg:right-32 xl:right-40 top-1/2 -translate-y-1/2"
+      >
+        <img
+          src="../public/photo_2024-07-29_15-43-47.jpg"
+          alt="Background Image"
+          class="w-full h-full"
+        />
+      </div>
+      <!------------review----------------------------------------->
+      <div
+        class="absolute z-30 lg:bottom-[200px] xl:bottom-[124px] right-24 w-[240px] backdrop-blur-xl bg-white/50 rounded-lg shadow-md p-5 text-center hidden md:hidden lg:block"
+      >
+        <div class="flex justify-center">
+          <img
+            src="Photos/avatar.jpg"
+            alt="Reviewer Avatar"
+            class="w-12 h-12 rounded-full"
+          />
+        </div>
+        <div class="flex justify-center space-x-1 my-2">
+          <svg
+            class="w-6 h-6 fill-[#ffe559]"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 576 512"
+          >
+            <path
+              d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"
+            />
+          </svg>
+
+          <svg
+            class="w-6 h-6 fill-[#ffe559]"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 576 512"
+          >
+            <path
+              d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"
+            />
+          </svg>
+          <svg
+            class="w-6 h-6 fill-[#ffe559]"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 576 512"
+          >
+            <path
+              d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"
+            />
+          </svg>
+          <svg
+            class="w-6 h-6 fill-[#ffe559]"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 576 512"
+          >
+            <path
+              d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"
+            />
+          </svg>
+          <svg
+            class="w-6 h-6 fill-[#ffe559]"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 576 512"
+          >
+            <path
+              d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"
+            />
+          </svg>
+        </div>
+        <div class="font-bold">Stupid William</div>
+        <div class="text-gray-600 text-sm my-2">Web developer</div>
+        <div class="text-gray-800 text-xs">
+          Its powerful admin tools have streamlined our operations for business.
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
