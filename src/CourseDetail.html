@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FullCourse</title>
+    <link rel="stylesheet" href="./output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Start nav section  -->
+    <nav class="bg-[#FFFFFF]/20 sticky glass top-0 border-b border-[#2454fe]">
+      <div class="lg:w-4/5 mx-3 lg:mx-auto">
+        <div class="navbar">
+          <div class="navbar-start flex gap-8">
+            <img
+              src="./images/hero.png"
+              alt=""
+              class="w-[40px] h-auto rounded-full"
+            />
+
+            <ul class="hidden sm:flex gap-4 font-semibold text-md">
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./course.html">Course</a></li>
+              <li><a href="./contactus.html">Contact</a></li>
+              <li><a href="./404.html">404</a></li>
+              <li><a href="./dashboard.html">Dashboard</a></li>
+            </ul>
+          </div>
+
+          <div class="lg:navbar-end md:navbar-end hidden md:flex gap-2">
+            <a href=""
+              ><button class="btn sm:btn-sm lg:btn-md capitalize">
+                Sign In
+              </button></a
+            >
+            <a href=""
+              ><button
+                class="btn sm:btn-sm lg:btn-md capitalize bg-[#2454FE] text-white hover:bg-[#2454FE]/80"
+              >
+                Get Started
+              </button></a
+            >
+          </div>
+
+          <div
+            class="drawer drawer-end navbar-end over-flow-hidden lg:hidden md:hidden"
+          >
+            <input id="nav-button" type="checkbox" class="drawer-toggle" />
+
+            <label
+              for="nav-button"
+              class="drawer-button btn btn-circle swap swap-rotate"
+            >
+              <!-- this hidden checkbox controls the state -->
+              <input type="checkbox" />
+
+              <!-- hamburger icon -->
+              <svg
+                class="swap-off fill-current"
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                viewBox="0 0 512 512"
+              >
+                <path
+                  d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z"
+                />
+              </svg>
+
+              <!-- close icon -->
+              <svg
+                class="swap-on fill-current"
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                viewBox="0 0 512 512"
+              >
+                <polygon
+                  points="400 145.49 366.51 112 256 222.51 145.49 112 112 145.49 222.51 256 112 366.51 145.49 400 256 289.49 366.51 400 400 366.51 289.49 256 400 145.49"
+                />
+              </svg>
+            </label>
+
+            <div class="drawer-side">
+              <label
+                for="nav-button"
+                aria-label="close sidebar"
+                class="drawer-overlay"
+              ></label>
+              <ul
+                class="menu bg-white text-base-content min-h-full w-80 p-4 gap-4"
+              >
+                <!-- Sidebar content here -->
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./course.html">Course</a></li>
+                <li><a href="./contactus.html">Contact Us</a></li>
+                <li><a href="./404.html">404</a></li>
+                <li><a href="./dashboard.html">Dashboard</a></li>
+                <li>
+                  <a href="" class="btn btn-md capitalize bg-[#5E5E5E]/20"
+                    >Sign In</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href=""
+                    class="btn btn-md capitalize bg-[#2454FE] text-white hover:bg-[#2454FE]/80"
+                    >Get Started</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- End nav section  -->
+
+    <!-- start fullcourse section  -->
+
+    <section
+      class="lg:w-5/6 xl:w-4/5 mx-3 lg:mx-auto my-12 grid grid-cols-1 lg:grid-cols-3 gap-10 justify-center"
+    >
+      <div class="flex flex-col justify-center gap-8 lg:col-span-2">
+        <img
+          src="./images/Next.js-Course.jpg"
+          alt="Course"
+          class="shadow-2xl shadow-[#2454fe]/50 rounded-xl"
+        />
+
+        <div class="flex justify-between items-center">
+          <h1 class="text-2xl font-bold">Next.js Full Course 2024</h1>
+          <button class="btn btn-md w-fit text-lg font-semibold rounded-full">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="size-6"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M15.75 4.5a3 3 0 1 1 .825 2.066l-8.421 4.679a3.002 3.002 0 0 1 0 1.51l8.421 4.679a3 3 0 1 1-.729 1.31l-8.421-4.678a3 3 0 1 1 0-4.132l8.421-4.679a3 3 0 0 1-.096-.755Z"
+                clip-rule="evenodd"
+              />
+            </svg>
+
+            Share
+          </button>
+        </div>
+
+        <p class="text-md text-[#5E5E5E] leading-20">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book.
+        </p>
+
+        <div class="grid grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-6">
+          <div
+            class="flex items-center gap-2 text-md font-semibold p-4 bg-[#2454FE] bg-opacity-10 rounded-lg"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="size-6"
+            >
+              <path
+                d="M5.625 1.5c-1.036 0-1.875.84-1.875 1.875v17.25c0 1.035.84 1.875 1.875 1.875h12.75c1.035 0 1.875-.84 1.875-1.875V12.75A3.75 3.75 0 0 0 16.5 9h-1.875a1.875 1.875 0 0 1-1.875-1.875V5.25A3.75 3.75 0 0 0 9 1.5H5.625Z"
+              />
+              <path
+                d="M12.971 1.816A5.23 5.23 0 0 1 14.25 5.25v1.875c0 .207.168.375.375.375H16.5a5.23 5.23 0 0 1 3.434 1.279 9.768 9.768 0 0 0-6.963-6.963Z"
+              />
+            </svg>
+
+            10 Lessons
+          </div>
+
+          <div
+            class="flex items-center gap-2 text-md font-semibold p-4 bg-[#007456] bg-opacity-10 rounded-lg"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="size-6"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25ZM12.75 6a.75.75 0 0 0-1.5 0v6c0 .414.336.75.75.75h4.5a.75.75 0 0 0 0-1.5h-3.75V6Z"
+                clip-rule="evenodd"
+              />
+            </svg>
+
+            6 Weeks
+          </div>
+
+          <div
+            class="flex items-center gap-2 text-md font-semibold p-4 bg-[#FE2454] bg-opacity-10 rounded-lg"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="size-6"
+            >
+              <path
+                d="M5.625 1.5c-1.036 0-1.875.84-1.875 1.875v17.25c0 1.035.84 1.875 1.875 1.875h12.75c1.035 0 1.875-.84 1.875-1.875V12.75A3.75 3.75 0 0 0 16.5 9h-1.875a1.875 1.875 0 0 1-1.875-1.875V5.25A3.75 3.75 0 0 0 9 1.5H5.625Z"
+              />
+              <path
+                d="M12.971 1.816A5.23 5.23 0 0 1 14.25 5.25v1.875c0 .207.168.375.375.375H16.5a5.23 5.23 0 0 1 3.434 1.279 9.768 9.768 0 0 0-6.963-6.963Z"
+              />
+            </svg>
+
+            10 Lessons
+          </div>
+
+          <div
+            class="flex items-center gap-2 text-md font-semibold p-4 bg-[#6C4CBE] bg-opacity-10 rounded-lg"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="size-6"
+            >
+              <path
+                d="M5.625 1.5c-1.036 0-1.875.84-1.875 1.875v17.25c0 1.035.84 1.875 1.875 1.875h12.75c1.035 0 1.875-.84 1.875-1.875V12.75A3.75 3.75 0 0 0 16.5 9h-1.875a1.875 1.875 0 0 1-1.875-1.875V5.25A3.75 3.75 0 0 0 9 1.5H5.625Z"
+              />
+              <path
+                d="M12.971 1.816A5.23 5.23 0 0 1 14.25 5.25v1.875c0 .207.168.375.375.375H16.5a5.23 5.23 0 0 1 3.434 1.279 9.768 9.768 0 0 0-6.963-6.963Z"
+              />
+            </svg>
+
+            Resources
+          </div>
+        </div>
+
+        <div class="flex flex-col gap-5 mt-4">
+          <h1 class="text-2xl font-bold">Course Outline</h1>
+
+          <div
+            tabindex="0"
+            class="collapse collapse-arrow rounded-lg shadow-2xl shadow-[#2454fe]/20 bg-[#FFFFFF]"
+          >
+            <div class="collapse-title text-md font-semibold">
+              Chapter-1 React Basic
+            </div>
+            <div class="collapse-content">
+              <p></p>
+            </div>
+          </div>
+
+          <div
+            tabindex="0"
+            class="collapse collapse-arrow rounded-lg shadow-2xl shadow-[#2454fe]/20 bg-[#FFFFFF]"
+          >
+            <div class="collapse-title text-md font-semibold">
+              Chapter-2 JSX
+            </div>
+            <div class="collapse-content">
+              <p></p>
+            </div>
+          </div>
+
+          <div
+            tabindex="0"
+            class="collapse collapse-arrow rounded-lg shadow-2xl shadow-[#2454fe]/20 bg-[#FFFFFF]"
+          >
+            <div class="collapse-title text-md font-semibold">
+              Chapter-3 Components
+            </div>
+            <div class="collapse-content">
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex flex-col gap-10">
+        <div
+          class="flex flex-col gap-5 p-6 bg-[#FFFFFF] shadow-2xl shadow-[#2454FE]/20 rounded-lg"
+        >
+          <h2 class="text-lg font-semibold">Full Course</h2>
+          <h1 class="text-3xl text-[#43B3AE] font-bold">
+            100,000 <span>MMK</span>
+          </h1>
+          <h2 class="text-lg font-semibold">Next.js Full Course 2024</h2>
+
+          <div class="flex flex-2 gap-3 text-md text-[#5E5E5E] mt-4">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="size-6 text-[#43B3AE]"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M12.516 2.17a.75.75 0 0 0-1.032 0 11.209 11.209 0 0 1-7.877 3.08.75.75 0 0 0-.722.515A12.74 12.74 0 0 0 2.25 9.75c0 5.942 4.064 10.933 9.563 12.348a.749.749 0 0 0 .374 0c5.499-1.415 9.563-6.406 9.563-12.348 0-1.39-.223-2.73-.635-3.985a.75.75 0 0 0-.722-.516l-.143.001c-2.996 0-5.717-1.17-7.734-3.08Zm3.094 8.016a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
+                clip-rule="evenodd"
+              />
+            </svg>
+
+            Life time access
+          </div>
+
+          <div class="flex flex-2 gap-3 text-md text-[#5E5E5E]">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="size-6 text-[#6C4CBE]"
+            >
+              <path
+                d="M4.5 3.75a3 3 0 0 0-3 3v.75h21v-.75a3 3 0 0 0-3-3h-15Z"
+              />
+              <path
+                fill-rule="evenodd"
+                d="M22.5 9.75h-21v7.5a3 3 0 0 0 3 3h15a3 3 0 0 0 3-3v-7.5Zm-18 3.75a.75.75 0 0 1 .75-.75h6a.75.75 0 0 1 0 1.5h-6a.75.75 0 0 1-.75-.75Zm.75 2.25a.75.75 0 0 0 0 1.5h3a.75.75 0 0 0 0-1.5h-3Z"
+                clip-rule="evenodd"
+              />
+            </svg>
+
+            Pay with AYA Pay & KBZ Pay
+          </div>
+
+          <div class="flex flex-2 gap-3 text-md text-[#5E5E5E]">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="size-6 text-[#2454FE]"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M2.25 5.25a3 3 0 0 1 3-3h13.5a3 3 0 0 1 3 3V15a3 3 0 0 1-3 3h-3v.257c0 .597.237 1.17.659 1.591l.621.622a.75.75 0 0 1-.53 1.28h-9a.75.75 0 0 1-.53-1.28l.621-.622a2.25 2.25 0 0 0 .659-1.59V18h-3a3 3 0 0 1-3-3V5.25Zm1.5 0v7.5a1.5 1.5 0 0 0 1.5 1.5h13.5a1.5 1.5 0 0 0 1.5-1.5v-7.5a1.5 1.5 0 0 0-1.5-1.5H5.25a1.5 1.5 0 0 0-1.5 1.5Z"
+                clip-rule="evenodd"
+              />
+            </svg>
+
+            Access from everywhere
+          </div>
+
+          <a
+            href="./paymentInfo.html"
+            class="btn btn-md bg-[#2454FE] text-lg font-bold text-white hover:bg-[#2454FE]/80 mt-4"
+          >
+            Buy Now
+          </a>
+        </div>
+
+        <a
+          href=""
+          class="w-full shadow-xl shadow-yellow-100 rounded-lg hover:scale-90 duration-300 mt-4"
+        >
+          <img src="./images/Send-Email.jpg" alt="" class="w-full" />
+        </a>
+
+        <div
+          class="flex flex-col gap-8 p-5 bg-[#FFFFFF] shadow-2xl shadow-[#2454FE]/20 rounded-lg"
+        >
+          <h1 class="text-2xl font-bold">Find Courses with category</h1>
+          <div class="grid grid-cols-1 xl:grid-cols-2 gap-3">
+            <div
+              class="px-2 py-3 bg-[#6C4CBE] bg-opacity-10 text-[#6C4CBE] rounded-md font-semibold text-sm text-center"
+            >
+              Web Development
+            </div>
+            <div
+              class="px-2 py-3 bg-[#007456] bg-opacity-10 text-[#007456] rounded-md font-semibold text-sm text-center"
+            >
+              Digital Marketing
+            </div>
+            <div
+              class="px-2 py-3 bg-[#2454FE] bg-opacity-10 text-[#2454FE] rounded-md font-semibold text-sm text-center"
+            >
+              AWS EC2 instances
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end fullcourse section  -->
+  </body>
+</html>
